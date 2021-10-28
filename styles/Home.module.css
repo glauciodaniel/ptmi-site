@@ -166,8 +166,12 @@ section.fullBanner .textDestak,
   animation-name: fadeInUp;
 }
 .main .textDestak {
-  height: 400px;
+  height: 620px;
   margin-top: unset;
+}
+.main .textDestak li {
+  font-size: 14px;
+  margin-bottom: 2%;;
 }
 section.fullBanner .doctor {
   display: flex;

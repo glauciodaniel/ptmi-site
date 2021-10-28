@@ -127,7 +127,15 @@ const Home: NextPage = () => {
               <span>faster and safer</span>
             </h1>
             <p>
-              In order to develop innovations that will have the maximum impact on the number of successful organ and tissue transplants, The PTMI has prioritized our research efforts in the following areas: .
+              In order to develop innovations that will have the maximum impact on the number of successful organ and tissue transplants, The PTMI has prioritized our research efforts in the following areas:
+
+              <ul>
+                <li>Development of individualized transplant diagnostic testing procedures to provide more accurate predictions of organ transplant safety and tolerance indications</li>
+                <li>Development of regenerative medicine procedures using organs, tissues, and stem cells from research-consented deceased donors that will address unmet needs in transplantation</li>
+                <li>Collaboration with OPOs, including the NJ Sharing Network, local/regional/national transplant programs, academic medical centers, and other nonprofit and public benefit organizations to explore additional applications of PTMI’s proprietary assay and regenerative medicine technologies  </li>
+                <li>Development of a bank of cryopreserved cells and extracellular matrix (secretome) from different organ/tissue sources </li>
+                <li>Development of organoids and organs-on-a-chip</li>
+              </ul>
             </p>
              <Link href="/">
                 <a className={`${styles.btn} ${styles["btn-fill"]}`}>
