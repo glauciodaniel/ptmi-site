@@ -390,7 +390,7 @@ section.fullBanner .textDestak>div a:first-child {
 }
 @media (max-width:1500px){
   .header ul {
-    width: 80%;
+    width: 70%;
   }
   section.fullBanner h1,
   .main h1 {
@@ -424,5 +424,12 @@ section.fullBanner .textDestak>div a:first-child {
   .btn-stroke {
     border: solid 2px #0AAF88;
     color: #0AAF88;
+  }
+  .features>.doctorPicture {
+    width: 30%;
+    position: absolute;
+    right: 2%;
+    top: 12%;
+    z-index: 0;
   }
 }

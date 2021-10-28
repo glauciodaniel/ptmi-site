@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Link from "next/link";
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-
+import doctorImage from "../public/doctor.jpg";
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -117,6 +117,7 @@ const Home: NextPage = () => {
               width={616}
               height={647}
               alt="doctor"
+              layout="responsive"
             /></div>
         <div>
 
@@ -195,10 +196,8 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.doctorPicture}>
           <Image
-              src="/doctor.jpg"
+              src={doctorImage}
               alt="Doctor"
-              width={558}
-              height={817}
             />
         </div>
 
