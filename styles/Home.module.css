@@ -211,7 +211,11 @@ section.fullBanner .textDestak>div a:first-child {
   border-radius: 5px;
   font-size: 25px;
 }
-
+.btn-small {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+ }
 .btn-fill {
   background-color: #0AAF88;
   color: #fff;
@@ -247,6 +251,8 @@ section.fullBanner .textDestak>div a:first-child {
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
+  background-color: #08453E;
+  color: #12EDB9;
   justify-content: center;
   align-items: center;
 }
@@ -334,10 +340,41 @@ section.fullBanner .textDestak>div a:first-child {
 }
 
 .logo {
-  height: 1em;
+  height: 70px;
   margin-left: 0.5rem;
 }
-
+.features {
+  min-height: 1000px ;
+  background: linear-gradient(#EBFFF7 60%, #fff 30%);
+  display: flex;
+  position: relative;
+}
+.features > .doctorPicture {
+  position: absolute;
+  right: 15%;
+  z-index: 0;
+}
+.card {
+  width: 370px;
+  height: 293px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 5%;
+}
+.featuresBlock {
+  position: absolute;
+  left: 19.9%;
+  z-index: 1;
+  padding-top: 5%;
+}
+.featuresBlock h2 {
+  font-size: 50px;
+}
+.row { 
+  display: flex;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

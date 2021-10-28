@@ -139,6 +139,70 @@ const Home: NextPage = () => {
 
       </main>
 
+      <section className={styles.features}>
+        <div  className={styles.featuresBlock}>
+          <h2>Special Service For <br /> Patients Specialist Doctors</h2>
+          <div className={styles.row}>
+            <div className={styles.card}>
+              <strong>Icon - Title</strong>
+              <strong>Service1</strong>
+               <Link href="/">
+                <a className={`${styles.btn} ${styles["btn-stroke"]} ${styles["btn-small"]}`}>
+                 Read more
+                </a>
+              </Link>
+
+              </div>
+            <div className={styles.card}>
+              <strong>Icon - Title</strong>
+              <strong>Service2</strong>
+              <Link href="/">
+                <a className={`${styles.btn} ${styles["btn-stroke"]} ${styles["btn-small"]}`}>
+                 Read more
+                </a>
+              </Link>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <div className={styles.card}>
+              <strong>Icon - Title</strong>
+              <strong>Service3</strong>
+              <Link href="/">
+                <a className={`${styles.btn} ${styles["btn-stroke"]} ${styles["btn-small"]}`}>
+                 Read more
+                </a>
+              </Link>
+            </div>
+            <div className={styles.card}>
+              <strong>Icon - Title</strong>
+              <strong>Service4</strong>
+              <Link href="/">
+                <a className={`${styles.btn} ${styles["btn-stroke"]} ${styles["btn-small"]}`}>
+                 Read more
+                </a>
+              </Link>
+            </div>
+            <div className={styles.card}>
+              <strong>Icon - Title</strong>
+              <strong>Service5</strong>
+              <Link href="/">
+                <a className={`${styles.btn} ${styles["btn-stroke"]} ${styles["btn-small"]}`}>
+                 Read more
+                </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className={styles.doctorPicture}>
+          <Image
+              src="/doctor.jpg"
+              alt="Doctor"
+              width={558}
+              height={817}
+            />
+        </div>
+
+      </section>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -148,10 +212,10 @@ const Home: NextPage = () => {
           Powered by{" "}
           <span className={styles.logo}>
             <Image
-              src="/ptmi-logo.png"
+              src="/ptmi-logo-invert.png"
               alt="PTMI Logo"
-              width={339}
-              height={148}
+              width={161}
+              height={70}
             />
           </span>
         </a>
