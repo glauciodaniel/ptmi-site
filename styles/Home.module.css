@@ -358,7 +358,7 @@ section.fullBanner .textDestak>div a:first-child {
 }
 .features > .doctorPicture {
   position: absolute;
-  right: 15%;
+  right: 12.5%;
   z-index: 0;
 }
 .card {
@@ -431,5 +431,14 @@ section.fullBanner .textDestak>div a:first-child {
     right: 2%;
     top: 12%;
     z-index: 0;
+  }
+  .card {
+    width: 270px;
+    height: 243px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
   }
 }

@@ -117,7 +117,6 @@ const Home: NextPage = () => {
               width={616}
               height={647}
               alt="doctor"
-              layout="responsive"
             /></div>
         <div>
 
