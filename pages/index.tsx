@@ -111,7 +111,33 @@ const Home: NextPage = () => {
           </div>
         </div>
       </section>
-      <main className={styles.main}></main>
+      <main className={styles.main}>
+        <div><Image
+              src="/section-block.jpg"
+              width={616}
+              height={647}
+              alt="doctor"
+            /></div>
+        <div>
+
+           <div className={styles.textDestak}>
+            <h1>
+              Organ and tissue transplants 
+              <br />
+              <span>faster and safer</span>
+            </h1>
+            <p>
+              In order to develop innovations that will have the maximum impact on the number of successful organ and tissue transplants, The PTMI has prioritized our research efforts in the following areas: .
+            </p>
+             <Link href="/">
+                <a className={`${styles.btn} ${styles["btn-fill"]}`}>
+                  Contact Us
+                </a>
+              </Link>
+            </div>
+        </div>
+
+      </main>
 
       <footer className={styles.footer}>
         <a

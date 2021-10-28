@@ -119,7 +119,8 @@ section.fullBanner {
   display: flex;
 }
 
-section.fullBanner h1 {
+section.fullBanner h1,
+.main h1 {
   font-size: 70px;
   margin: 5% 0 0 0;
   padding: 0;
@@ -127,11 +128,14 @@ section.fullBanner h1 {
   color: #0AAF88;
 }
 
-section.fullBanner h1 span {
+section.fullBanner h1 span,
+.main h1 span {
   color:
     #297C69;
 }
-
+.main h1 {
+  font-size: 50px;
+}
 section.fullBanner>div {
   width: 50%;
   height: 100%;
@@ -142,7 +146,8 @@ section.fullBanner>div:first-child {
   padding-left: 10%;
 }
 
-section.fullBanner .textDestak {
+section.fullBanner .textDestak,
+.main .textDestak {
   height: 50%;
   margin-top: 10%;
   display: flex;
@@ -153,7 +158,10 @@ section.fullBanner .textDestak {
   opacity: 0;
   animation-name: fadeInUp;
 }
-
+.main .textDestak {
+  height: 400px;
+  margin-top: unset;
+}
 section.fullBanner .doctor {
   display: flex;
   flex-direction: column;
@@ -184,7 +192,8 @@ section.fullBanner .doctorImage2 {
   animation-name: fadeInRight;
 }
 
-section.fullBanner .textDestak p {
+section.fullBanner .textDestak p,
+.main .textDestak p {
   width: 80%;
 }
 
@@ -224,14 +233,15 @@ section.fullBanner .textDestak>div a:first-child {
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  padding: 2rem 10%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
+.main > div:last-child {
+  width:50%;
+}
 .footer {
   display: flex;
   flex: 1;
