@@ -141,7 +141,7 @@ const Home: NextPage = () => {
 
       <section className={styles.features}>
         <div  className={styles.featuresBlock}>
-          <h2>Special Service For <br /> Patients Specialist Doctors</h2>
+          <h2>Improve the quality of life<br/><span> for transplant recipients</span></h2>
           <div className={styles.row}>
             <div className={styles.card}>
               <strong>Icon - Title</strong>

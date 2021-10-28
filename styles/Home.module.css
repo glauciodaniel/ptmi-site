@@ -127,9 +127,16 @@ section.fullBanner h1,
   line-height: 0.9;
   color: #0AAF88;
 }
-
+.features h2 {
+  font-size: 50px;
+  margin: 5% 0 5% 0;
+  padding: 0;
+  line-height: 0.9;
+  color: #0AAF88;
+}
 section.fullBanner h1 span,
-.main h1 span {
+.main h1 span,
+.features h2 span {
   color:
     #297C69;
 }
@@ -379,5 +386,43 @@ section.fullBanner .textDestak>div a:first-child {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+@media (max-width:1500px){
+  .header ul {
+    width: 80%;
+  }
+  section.fullBanner h1,
+  .main h1 {
+    font-size: 60px;
+  }
+  .btn {
+    width: 126px;
+    height: 50px;
+    background: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  .btn-small {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .btn-fill {
+    background-color: #0AAF88;
+    color: #fff;
+  }
+
+  .btn-fill:hover {
+    background-color: #12EDB9;
+  }
+
+  .btn-stroke {
+    border: solid 2px #0AAF88;
+    color: #0AAF88;
   }
 }
