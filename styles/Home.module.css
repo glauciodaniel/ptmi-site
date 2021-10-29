@@ -1,33 +1,33 @@
 @keyframes fadeInUp {
   from {
-    transform: translate3d(0, 40px, 0)
+    transform: translate3d(0, 40px, 0);
   }
 
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes fadeInLeft {
   from {
-    transform: translate3d(100px, 0, 0)
+    transform: translate3d(100px, 0, 0);
   }
 
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes fadeInRight {
   from {
-    transform: translate3d(-100px, 0, 0)
+    transform: translate3d(-100px, 0, 0);
   }
 
   to {
     transform: translate3d(0, 0, 0);
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -37,7 +37,7 @@
 }
 
 .animatedFadeInUp {
-  opacity: 0
+  opacity: 0;
 }
 
 .fadeInUp {
@@ -52,8 +52,8 @@
 .header {
   width: 100%;
   height: 50px;
-  background: #08453E;
-  color: #DBF5EF;
+  background: #08453e;
+  color: #dbf5ef;
   display: flex;
   justify-content: flex-end;
 }
@@ -77,9 +77,8 @@
 }
 
 .header ul li:not(:last-child):hover {
-  background: #0AAF88;
+  background: #0aaf88;
   font-weight: bold;
-
 }
 
 .header ul li:last-child {
@@ -91,7 +90,7 @@
 .search {
   width: 90%;
   height: 33px;
-  background: #7E9390;
+  background: #7e9390;
   display: inline-block;
   border-radius: 5px;
   display: flex;
@@ -107,9 +106,8 @@
   border: none;
   background: none;
   outline: none;
-  color: #DBF5EF;
+  color: #dbf5ef;
 }
-
 
 /* Full Banner */
 section.fullBanner {
@@ -125,30 +123,29 @@ section.fullBanner h1,
   margin: 5% 0 0 0;
   padding: 0;
   line-height: 0.9;
-  color: #0AAF88;
+  color: #0aaf88;
 }
 .features h2 {
   font-size: 50px;
   margin: 5% 0 5% 0;
   padding: 0;
   line-height: 0.9;
-  color: #0AAF88;
+  color: #0aaf88;
 }
 section.fullBanner h1 span,
 .main h1 span,
 .features h2 span {
-  color:
-    #297C69;
+  color: #297c69;
 }
 .main h1 {
   font-size: 50px;
 }
-section.fullBanner>div {
+section.fullBanner > div {
   width: 50%;
   height: 100%;
 }
 
-section.fullBanner>div:first-child {
+section.fullBanner > div:first-child {
   width: 65%;
   padding-left: 10%;
 }
@@ -171,7 +168,7 @@ section.fullBanner .textDestak,
 }
 .main .textDestak li {
   font-size: 14px;
-  margin-bottom: 2%;;
+  margin-bottom: 2%;
 }
 section.fullBanner .doctor {
   display: flex;
@@ -208,7 +205,7 @@ section.fullBanner .textDestak p,
   width: 80%;
 }
 
-section.fullBanner .textDestak>div a:first-child {
+section.fullBanner .textDestak > div a:first-child {
   margin-right: 5%;
 }
 
@@ -226,24 +223,24 @@ section.fullBanner .textDestak>div a:first-child {
   width: 150px;
   height: 40px;
   font-size: 15px;
- }
+}
 .btn-fill {
-  background-color: #0AAF88;
+  background-color: #0aaf88;
   color: #fff;
 }
 
 .btn-fill:hover {
-  background-color: #12EDB9;
+  background-color: #12edb9;
 }
 
 .btn-stroke {
-  border: solid 2px #0AAF88;
-  color: #0AAF88;
+  border: solid 2px #0aaf88;
+  color: #0aaf88;
 }
 
 .btn-stroke:hover {
-  border: solid 2px #12EDB9;
-  color: #12EDB9;
+  border: solid 2px #12edb9;
+  color: #12edb9;
 }
 
 .main {
@@ -255,15 +252,15 @@ section.fullBanner .textDestak>div a:first-child {
   align-items: center;
 }
 .main > div:last-child {
-  width:50%;
+  width: 50%;
 }
 .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
-  background-color: #08453E;
-  color: #12EDB9;
+  background-color: #08453e;
+  color: #12edb9;
   justify-content: center;
   align-items: center;
 }
@@ -355,8 +352,8 @@ section.fullBanner .textDestak>div a:first-child {
   margin-left: 0.5rem;
 }
 .features {
-  min-height: 1000px ;
-  background: linear-gradient(#EBFFF7 60%, #fff 30%);
+  min-height: 1000px;
+  background: linear-gradient(#ebfff7 60%, #fff 30%);
   display: flex;
   position: relative;
 }
@@ -383,7 +380,7 @@ section.fullBanner .textDestak>div a:first-child {
 .featuresBlock h2 {
   font-size: 50px;
 }
-.row { 
+.row {
   display: flex;
 }
 @media (max-width: 600px) {
@@ -392,7 +389,7 @@ section.fullBanner .textDestak>div a:first-child {
     flex-direction: column;
   }
 }
-@media (max-width:1500px){
+@media (max-width: 1500px) {
   .header ul {
     width: 70%;
   }
@@ -417,19 +414,19 @@ section.fullBanner .textDestak>div a:first-child {
   }
 
   .btn-fill {
-    background-color: #0AAF88;
+    background-color: #0aaf88;
     color: #fff;
   }
 
   .btn-fill:hover {
-    background-color: #12EDB9;
+    background-color: #12edb9;
   }
 
   .btn-stroke {
-    border: solid 2px #0AAF88;
-    color: #0AAF88;
+    border: solid 2px #0aaf88;
+    color: #0aaf88;
   }
-  .features>.doctorPicture {
+  .features > .doctorPicture {
     width: 30%;
     position: absolute;
     right: 2%;
