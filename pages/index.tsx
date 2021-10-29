@@ -81,14 +81,10 @@ const Home: NextPage = () => {
             <div>
               <Link href="/">
                 <a className={`${styles.btn} ${styles["btn-fill"]}`}>
-                  Contact Us
+                  Learn more
                 </a>
               </Link>
-              <Link href="/">
-                <a className={`${styles.btn} ${styles["btn-stroke"]}`}>
-                  Get a Doctor
-                </a>
-              </Link>
+             
             </div>
           </div>
         </div>
@@ -139,7 +135,7 @@ const Home: NextPage = () => {
             </p>
              <Link href="/">
                 <a className={`${styles.btn} ${styles["btn-fill"]}`}>
-                  Contact Us
+                  Learn More
                 </a>
               </Link>
             </div>
