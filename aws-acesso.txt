@@ -1,0 +1,8 @@
+wordpress: user
+ssh: bitnami
+password: QVOZfu4Iv6Vc
+
+
+
+ptminewjersey@gmail.com
+senha: $#fwew3281wASD!
